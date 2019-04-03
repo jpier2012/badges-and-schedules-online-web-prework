@@ -18,7 +18,8 @@ end
 def assign_rooms names
     rooms = *[]
     names.each_with_index {|name, index|
-      puts rooms.push "Hello, #{name}! You'll be assigned to room #{index + 1}!"
+      rooms.push "Hello, #{name}! You'll be assigned to room #{index + 1}!"
+      puts rooms.last
     }
     rooms
 end
