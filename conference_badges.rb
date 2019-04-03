@@ -1,6 +1,4 @@
 # Write your code here.
-require 'pry'
-
 name_list = *["James", "Allen", "Pier"]
 
 def badge_maker name
@@ -9,7 +7,7 @@ end
 
 def batch_badge_creator names
   badges = *[]
-  names.each {|name| badges.push badge_maker name}
+  names.each {|name| badges.push badge_maker(name)}
   badges
 end
 
@@ -22,4 +20,3 @@ def printer names
   assign_rooms names
 end
 
-binding.pry
