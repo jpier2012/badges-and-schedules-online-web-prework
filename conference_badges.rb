@@ -1,5 +1,5 @@
 # Write your code here.
-names = []
+names = *[]
 
 def badge_maker name
   "Hello, my name is #{name}."
