@@ -1,7 +1,7 @@
 # Write your code here.
 require 'pry'
 
-names = *["James", "Allen", "Pier"]
+name_list = *["James", "Allen", "Pier"]
 badges = *[]
 
 def badge_maker name
