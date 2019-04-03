@@ -1,5 +1,5 @@
 # Write your code here.
-reuire 'pry'
+require 'pry'
 
 name_list = *["James", "Allen", "Pier"]
 
