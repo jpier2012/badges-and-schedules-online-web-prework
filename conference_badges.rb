@@ -1,4 +1,6 @@
 # Write your code here.
+require 'pry'
+
 names = *[]
 
 def badge_maker name
@@ -17,3 +19,5 @@ def printer names
   batch_badge_creator names
   assign_rooms names
 end
+
+binding.pry
