@@ -1,7 +1,7 @@
 # Write your code here.
 require 'pry'
 
-names = *%w(James Allen Pier Mr\ Yahmes)
+names = *["James", "Allen", "Pier"]
 badges = *[]
 
 def badge_maker name
