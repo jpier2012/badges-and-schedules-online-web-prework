@@ -1,7 +1,8 @@
 # Write your code here.
 
 def badge_maker name
-  puts "Hello, my name is #{name}."
+  msg = "Hello, my name is #{name}."
+  puts msg
 end
 
 def batch_badge_creator names
