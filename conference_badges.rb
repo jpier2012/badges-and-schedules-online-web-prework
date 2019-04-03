@@ -16,7 +16,7 @@ end
 def assign_rooms names
     rooms = *[]
     msg = "Hello, #{name}! You'll be assigned to room #{index + 1}!"
-    names.each_with_index {|name, index| 
+    names.each_with_index {|name, index|
       rooms.push(msg)
       puts msg
     }
