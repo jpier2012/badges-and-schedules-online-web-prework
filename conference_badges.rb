@@ -1,6 +1,4 @@
 # Write your code here.
-require 'pry'
-
 name_list = *["James", "Allen", "Pier"]
 
 def badge_maker name
@@ -14,12 +12,11 @@ def batch_badge_creator names
 end
 
 def assign_rooms names
-    rooms = *[names.each_with_index {|name, index| "Hello, #{name}! You'll be assigned to room #{index}!")}]
+
+    rooms = *[] << names.each_with_index {|name, index| "Hello, #{name}! You'll be assigned to room #{index}!"}
 end
 
 def printer names
   batch_badge_creator names
   assign_rooms names
 end
-
-binding.pry
