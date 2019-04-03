@@ -30,4 +30,4 @@ def printer names
   assign_rooms names
 end
 
-binding.pry
+#binding.pry
