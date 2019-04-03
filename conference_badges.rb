@@ -10,7 +10,7 @@ end
 def batch_badge_creator names
   badges = *[]
   names.each {|name|
-    puts badges.push badge_maker(name)
+    badges.push badge_maker(name)
   }
   badges
 end
