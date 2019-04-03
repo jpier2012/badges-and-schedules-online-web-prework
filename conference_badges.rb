@@ -5,7 +5,7 @@ def badge_maker name
 end
 
 def batch_badge_creator names
-  puts names.each_with_index
+  names.each_with_index {|index, val| puts "#{val} will be in room #{index}."}
 end
 
 puts batch_badge_creator ["James", "Allen", "Pier"]
