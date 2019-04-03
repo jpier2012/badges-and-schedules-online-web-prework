@@ -6,7 +6,6 @@ end
 
 def batch_badge_creator names
   names.each {|name| puts badge_maker name}
-  names
 end
 
 def assign_rooms names
