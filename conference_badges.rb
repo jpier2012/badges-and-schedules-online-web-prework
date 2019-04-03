@@ -3,6 +3,7 @@
 def badge_maker name
   msg = "Hello, my name is #{name}."
   puts msg
+  msg
 end
 
 def batch_badge_creator names
