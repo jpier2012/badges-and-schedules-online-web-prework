@@ -1,4 +1,6 @@
 # Write your code here.
+require 'pry'
+
 name_list = *["James", "Allen", "Pier"]
 
 def badge_maker name
