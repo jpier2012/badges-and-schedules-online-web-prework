@@ -11,7 +11,6 @@ def batch_badge_creator names
   badges = *[]
   names.each {|name|
     puts badges.push badge_maker(name)
-    puts badge_maker(name)
   }
   badges
 end
@@ -19,7 +18,7 @@ end
 def assign_rooms names
     rooms = *[]
     names.each_with_index {|name, index|
-      puts rooms.push("Hello, #{name}! You'll be assigned to room #{index + 1}!")
+      puts rooms.push "Hello, #{name}! You'll be assigned to room #{index + 1}!"
     }
     rooms
 end
