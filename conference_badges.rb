@@ -14,7 +14,7 @@ def batch_badge_creator names
 end
 
 def assign_rooms names
-    rooms = *[] << names.each_with_index {|name, index| return "Hello, #{name}! You'll be assigned to room #{index}!"}
+    rooms = *[] << names.each_with_index {|name, index| "Hello, #{name}! You'll be assigned to room #{index}!"}
     rooms
 end
 
