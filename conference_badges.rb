@@ -19,5 +19,5 @@ end
 
 def printer names
   puts batch_badge_creator names
-  passign_rooms names
+  assign_rooms names
 end
